@@ -11,7 +11,7 @@
 # WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
 # See the License for the specific language governing permissions and
 # limitations under the License.
-FROM golang
+FROM golang:1.22rc2-bookworm
 RUN go get -v github.com/spf13/hugo
 RUN git clone --recursive https://github.com/spf13/hugoThemes.git /themes
 VOLUME ["/src", "/dest"]
