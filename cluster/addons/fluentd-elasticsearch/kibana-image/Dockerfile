@@ -1,7 +1,7 @@
 # A Dockerfile for creating a Kibana container that is designed
 # to work with Kubernetes logging.
 
-FROM ubuntu:14.04
+FROM ubuntu:trusty-20190425
 MAINTAINER Satnam Singh "satnam@google.com"
 
 ENV DEBIAN_FRONTEND noninteractive
