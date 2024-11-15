@@ -8,7 +8,7 @@
 # Please see http://docs.fluentd.org/articles/install-by-deb for more
 # information about installing fluentd using deb package.
 
-FROM ubuntu:14.04
+FROM ubuntu:trusty-20190425
 MAINTAINER Satnam Singh "satnam@google.com"
 
 # Ensure there are enough file descriptors for running Fluentd.
