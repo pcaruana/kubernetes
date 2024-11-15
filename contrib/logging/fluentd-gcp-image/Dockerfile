@@ -6,7 +6,7 @@
 # scope and that the Logging API has been enabled for the project
 # in the Google Developer Console. 
 
-FROM ubuntu:14.04
+FROM ubuntu:trusty-20190425
 MAINTAINER Satnam Singh "satnam@google.com"
 
 # Disable prompts from apt.
